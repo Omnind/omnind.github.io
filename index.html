@@ -1,331 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Apple</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <link rel="icon" href="./img/favicon.ico">
+  <title>Small Startup - Home</title>
+  <link rel="stylesheet" href="src/styles/designSystem.css">
+  <link rel="stylesheet" href="src/styles/index.css">
+  <link rel="icon" href="src/images/Logo/LogoWhite.svg">
 </head>
+
 <body>
-  <!-- start header -->
-  <header id="sticky-nav">
-    <div class="container">
-      <nav id="nav-ul">
-        <ul>
-          <li><a href="https://github.com/ndc07"><i class="fa fa-apple"></i></a></li>
-          <li><a href="https://github.com/ndc07">Mac</a></li>
-          <li><a href="https://github.com/ndc07">iPad</a></li>
-          <li><a href="https://github.com/ndc07">iPhone</a></li>
-          <li><a href="https://github.com/ndc07">Watch</a></li>
-          <li><a href="https://github.com/ndc07">TV</a></li>
-          <li><a href="https://github.com/ndc07">Music</a></li>
-          <li><a href="https://github.com/ndc07">Support</a></li>
-          <li><a href="https://github.com/ndc07"><i class="fa fa-search"></i></a></li>
-          <li><a href="https://github.com/ndc07"><i class="fa fa-shopping-cart"></i></a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- end header -->
+  <div class="hero">
+    <div class="navbar container">
+      <div class="navbar__logo">
+        <img src="src/images/Logo/LogoWhite.svg" alt="" class="navbar__logo--image">
+        <div class="navbar__logo--text">Start</div>
+      </div>
+      <div class="navbar__menu hidden">
+        <a href="index.html" class="navbar__menu--1">Home</a>
+        <a href="portfolio.html" class="navbar__menu--2">Portfolio</a>
+        <a href="services.html" class="navbar__menu--3">Services</a>
+        <a href="contact.html" class="navbar__menu--4">Contact</a>
+      </div>
 
-  <!-- start banner iphone xs -->
-  <section class="banner banner-iphone-xs">
-    <div class="container">
-      <div class="banner-content">
-        <img src="https://www.apple.com/v/home/dx/images/logos/iphone_xs_logo_hero_large.png" alt="iPhone XS Logo">
-        <h3>Welcome to the big screens.</h3>
-        <div class="links-banner">
-          <a href="https://github.com/ndc07">Learn more<i class="fa fa-angle-right"></i></a>
-          <a href="https://github.com/ndc07">Buy<i class="fa fa-angle-right"></i></a>
-        </div>
-      </div>
-      <div class="img-banner">
-        <img src="https://www.apple.com/v/home/dx/images/heroes/iphone-xs/iphone_xs_large.jpg" alt="iPhone XS">
+      <div class="navbar__icons">
+        <i class="bi bi-list"></i>
+        <i class="bi bi-x-lg hide"></i>
       </div>
     </div>
-  </section>
-  <!-- end banner iphone xs -->
+    <div class="sectionOne container grid">
+      <div class="sectionOne__left flex">
+        <div class="sectionOne__left--label label text-white">welcome</div>
+        <div class="sectionOne__left--title common-title text-white">Lorem ipsum dolor sit amet consectetur.</div>
+        <div class="sectionOne__left--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laboriosam
+          aliquam est exercitationem quo reiciendis asperiores veritatis placeat porro earum? Libero tempora impedit
+          rerum
+          quae aspernatur nostrum quod fuga quasi.</div>
+        <button class="sectionOne__left--btn white-btn">Explore</button>
+      </div>
+      <img class="sectionOne__right responsive-image" src="src/images/Home/image-1.svg" alt="">
+    </div>
+  </div>
 
-  <!-- start banner iphone xr -->
-  <section class="banner banner-iphone-xr">
-    <div class="container">
-      <div class="banner-content">
-        <img src="https://www.apple.com/v/home/dx/images/logos/iphone_xr_logo_hero_large.png" alt="iPhone XS Logo">
-        <h3>Brilliant. In every way.</h3>
-        <p>Pre-order 10.19</p>
-      </div>
-      <div class="img-banner">
-        <img src="https://www.apple.com/v/home/dx/images/heroes/iphone-xr/iphone_xr_large.jpg" alt="iPhone XS">
+  <div class="sectionTwo container">
+    <div class="sectionTwo__content text-center flex">
+      <div class="sectionTwo__content--label label text-green">partners</div>
+      <div class="sectionTwo__content--title common-title">Lorem ipsum dolor sit amet consectetur.</div>
+      <div class="sectionTwo__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, porro?
       </div>
     </div>
-  </section>
-  <!-- end banner iphone xr -->
+    <div class="sectionTwo__logo">
+      <img src="src/images/Companies/Google.svg" alt="" class="sectionTwo__logo--1 responsive-image">
+      <img src="src/images/Companies/Microsoft.svg" alt="" class="sectionTwo__logo--2 responsive-image">
+      <img src="src/images/Companies/Airbnb.svg" alt="" class="sectionTwo__logo--3 responsive-image">
+      <img src="src/images/Companies/Facebook.svg" alt="" class="sectionTwo__logo--4 responsive-image">
+      <img src="src/images/Companies/Spotify.svg" alt="" class="sectionTwo__logo--5 responsive-image">
+    </div>
+    <button class="sectionTwo__btn dark-btn">Learn More</button>
+  </div>
 
-  <!-- start banner watch -->
-  <section class="banner banner-watch">
-    <div class="container">
-      <div class="banner-content">
-        <img src="https://www.apple.com/v/home/dx/images/logos/apple_watch_series_4_logo_hero_large.jpg" alt="Apple Watch Logo">
-        <h3 class="banner-title">All new. For a better you.</h3>
-        <div class="links-banner">
-          <a href="https://github.com/ndc07">Learn more<i class="fa fa-angle-right"></i></a>
-          <a href="https://github.com/ndc07">Buy<i class="fa fa-angle-right"></i></a>
-        </div>
-      </div>
-      <div class="img-banner">
-        <img src="https://www.apple.com/v/home/dx/images/heroes/apple-watch-series-4/apple_watch_series_4_large.jpg" alt="Apple Watch">
-      </div>
+  <div class="sectionThree container grid">
+    <img class="sectionThree__left responsive-image" src="src/images/Home/image-2.svg" alt="">
+    <div class="sectionThree__right flex">
+      <div class="sectionThree__right--title common-title">Lorem ipsum dolor sit amet consectetur.</div>
+      <div class="sectionThree__right--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Impedit laboriosam
+        aliquam est exercitationem quo reiciendis asperiores veritatis placeat porro earum? Libero tempora impedit
+        rerum
+        quae aspernatur nostrum quod fuga quasi.</div>
+      <button class="sectionThree__right--btn dark-btn">Explore</button>
     </div>
-  </section>
-  <!-- end banner watch -->
+  </div>
+  <div class="sectionFour container grid">
+    <div class="sectionFour__left flex">
+      <div class="sectionFour__left--title common-title">Lorem ipsum dolor sit amet consectetur.</div>
+      <div class="sectionFour__left--text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Impedit laboriosam
+        aliquam est exercitationem quo reiciendis asperiores veritatis placeat porro earum? Libero tempora impedit
+        rerum
+        quae aspernatur nostrum quod fuga quasi.</div>
+      <button class="sectionFour__left--btn dark-btn">Explore</button>
+    </div>
+    <img src="src/images/Home/image-3.svg" alt="" class="sectionFour__right responsive-image">
+  </div>
 
-  <!-- start banner music & airpods -->
-  <section class="banner banner-music-airpods">
-    <div class="container">
-      <!-- start banner music -->
-      <div class="banner-1 banner-music">
-        <div class="banner-content">
-          <img src="https://www.apple.com/v/home/dx/images/logos/music_large.png" alt="Apple Music Logo">
-          <h4>Lose yourself in 50 million songs.</h4>
-          <div class="links-banner">
-            <a href="https://github.com/ndc07">Try it free*<i class="fa fa-angle-right"></i></a>
-            <a href="https://github.com/ndc07">Learn more<i class="fa fa-angle-right"></i></a>
-          </div>
-          <img src="https://www.apple.com/v/home/dx/images/promos/apple-music/icon_apple_music_large.png" alt="Apple Music">
-        </div>
+  <div class="sectionFive container">
+    <div class="sectionFive__content text-center">
+      <div class="sectionFive__content--label label text-green">Teams</div>
+      <div class="sectionFive__content--title common-title">Our teams</div>
+      <div class="sectionFive__content--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae,
+        porro?
       </div>
-      <!-- end banner music -->
-      <!-- start banner airpods -->
-      <div class="banner-2 banner-airpods">
-        <div class="banner-content">
-          <h2>AirPods</h2>
-          <h4>Wireless. Effortless. Magical.</h4>
-          <div class="links-banner">
-            <a href="https://github.com/ndc07">Learn more<i class="fa fa-angle-right"></i></a>
-            <a href="https://github.com/ndc07">Buy<i class="fa fa-angle-right"></i></a>
-          </div>
-        </div>
-        <div class="img-banner">
-          <img src="https://www.apple.com/v/home/dx/images/promos/airpods/airpods_large.jpg" alt="Airpods">
-        </div>
-      </div>
-      <!-- end banner airpods -->
     </div>
-  </section>
-  <!-- end banner music & airpods -->
+    <div class="sectionFive__cards">
+      <div class="sectionFive__cards--1">
+        <img class="responsive-image" src="src/images/team/Peg_Legge.svg" alt="">
+        <div class="name">Peg Legge</div>
+        <div class="position">CEO</div>
+      </div>
+      <div class="sectionFive__cards--2">
+        <img class="responsive-image" src="src/images/team/Richard.svg" alt="">
+        <div class="name">Richard Guerra</div>
+        <div class="position">CTO</div>
+      </div>
+      <div class="sectionFive__cards--3">
+        <img class="responsive-image" src="src/images/team/Alexandra.svg" alt="">
+        <div class="name">Alexandra Stolz</div>
+        <div class="position">Designer</div>
+      </div>
+      <div class="sectionFive__cards--4">
+        <img class="responsive-image" src="src/images/team/Janet.svg" alt="">
+        <div class="name">Janet Bray</div>
+        <div class="position">developer</div>
+      </div>
+    </div>
+    <button class="sectionFive__btn dark-btn">View Team</button>
+  </div>
 
-  <!-- start banner giveback & homepod -->
-  <section class="banner banner-giveback-homepod">
-    <div class="container">
-      <!-- start banner giveback -->
-      <div class="banner-1 banner-giveback">
-        <div class="banner-content">
-          <h2>Apple GiveBack</h2>
-          <h4>
-            Trade in your old device
-            <br/>
-            for credit toward a new one.
-          </h4>
-          <div class="links-banner">
-            <a href="https://github.com/ndc07">Learn more<i class="fa fa-angle-right"></i></a>
-            <a href="https://github.com/ndc07">Buy<i class="fa fa-angle-right"></i></a>
-          </div>
-        </div>
-        <div class="img-banner">
-          <img src="https://www.apple.com/v/home/dx/images/promos/give-back/give_back_large.jpg" alt="GiveBack">
-        </div>
+  <div class="footerWrapper">
+    <div class="footerLinks container">
+      <div class="footerLinks__socials">
+        <img src="src/images/socials/facebook.svg" alt="" class="footerLinks__socials--1">
+        <img src="src/images/socials/instagram.svg" alt="" class="footerLinks__socials--2">
+        <img src="src/images/socials/twitter.svg" alt="" class="footerLinks__socials--3">
+        <img src="src/images/socials/pinterest.svg" alt="" class="footerLinks__socials--4">
+        <img src="src/images/socials/tiktok.svg" alt="" class="footerLinks__socials--5">
+        <img src="src/images/socials/whatsapp.svg" alt="" class="footerLinks__socials--6">
+        <img src="src/images/socials/youtube.svg" alt="" class="footerLinks__socials--7">
       </div>
-      <!-- end banner giveback -->
-      <!-- start banner homepod -->
-      <div class="banner-2 banner-homepod">
-        <div class="banner-content">
-          <h2>HomePod</h2>
-          <h4>The new sound of home.</h4>
-          <div class="links-banner">
-            <a href="https://github.com/ndc07">Learn more<i class="fa fa-angle-right"></i></a>
-            <a href="https://github.com/ndc07">Buy<i class="fa fa-angle-right"></i></a>
-          </div>
-        </div>
-        <div class="img-banner">
-          <img src="https://www.apple.com/v/home/dx/images/promos/homepod/homepod_large.jpg" alt="HomePod">
-        </div>
-      </div>
-      <!-- end banner homepod -->
+      <div class="footerLinks__copyright text-white text-center">© Start, 2022. All rights reserved.</div>
     </div>
-  </section>
-  <!-- end banner giveback & homepod -->
-
-  <!-- start banner macbookpro & ipad -->
-  <section class="banner banner-macbookpro-ipad">
-    <div class="container">
-      <!-- start banner macbookpro -->
-      <div class="banner-1 banner-macbookpro">
-        <div class="banner-content">
-          <h2>MacBook Pro</h2>
-          <h4>More power. More performance. More pro.</h4>
-          <div class="links-banner">
-            <a href="https://github.com/ndc07">Learn more<i class="fa fa-angle-right"></i></a>
-            <a href="https://github.com/ndc07">Buy<i class="fa fa-angle-right"></i></a>
-          </div>
-        </div>
-        <!-- <div class="img-banner">
-          <img src="https://www.apple.com/v/home/dx/images/promos/macbook-pro/macbook_pro_performance_large.jpg" alt="Macbook Pro">
-        </div> -->
-      </div>
-      <!-- end banner macbookpro -->
-      <!-- start banner ipad -->
-      <div class="banner-2 banner-ipad">
-        <div class="banner-content">
-          <h2>iPad</h2>
-          <h4>Like a computer. Unlike any computer.</h4>
-          <div class="links-banner">
-            <a href="https://github.com/ndc07">Learn more<i class="fa fa-angle-right"></i></a>
-            <a href="https://github.com/ndc07">Buy<i class="fa fa-angle-right"></i></a>
-          </div>
-        </div>
-        <div class="img-banner">
-          <img src="https://www.apple.com/v/home/dx/images/promos/ipad/ipad_large.jpg" alt="iPad">
-        </div>
-      </div>
-      <!-- end banner ipad -->
-    </div>
-  </section>
-  <!-- end banner macbookpro & ipad -->
-
-  <!-- start footer -->
-  <footer>
-    <div class="container">
-      <!-- start directory-with-5-columns -->
-      <nav class="directory-with-5-columns">
-        <!-- start colum 1 -->
-        <div class="directory-column">
-          <div class="directory-column-section">
-            <p class="directory-label">Shop and Learn</p>
-            <ul>
-              <li><a href="https://github.com/ndc07">Mac</a></li>
-              <li><a href="https://github.com/ndc07">iPad</a></li>
-              <li><a href="https://github.com/ndc07">iPhone</a></li>
-              <li><a href="https://github.com/ndc07">Watch</a></li>
-              <li><a href="https://github.com/ndc07">TV</a></li>
-              <li><a href="https://github.com/ndc07">Music</a></li>
-              <li><a href="https://github.com/ndc07">iTunes</a></li>
-              <li><a href="https://github.com/ndc07">HomePod</a></li>
-              <li><a href="https://github.com/ndc07">iPod touch</a></li>
-              <li><a href="https://github.com/ndc07">Accessories</a></li>
-              <li><a href="https://github.com/ndc07">Gift Cards</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- end column 1 -->
-        <!-- start column 2 -->
-        <div class="directory-column">
-          <div class="directory-column-section">
-            <p class="directory-label">Apple Store</p>
-            <ul>
-              <li><a href="https://github.com/ndc07">Find a Store</a></li>
-              <li><a href="https://github.com/ndc07">Genius Bar</a></li>
-              <li><a href="https://github.com/ndc07">Today at Apple</a></li>
-              <li><a href="https://github.com/ndc07">Apple Camp</a></li>
-              <li><a href="https://github.com/ndc07">Field Trip</a></li>
-              <li><a href="https://github.com/ndc07">Apple Store App</a></li>
-              <li><a href="https://github.com/ndc07">Refurbished and Clearance</a></li>
-              <li><a href="https://github.com/ndc07">Financing</a></li>
-              <li><a href="https://github.com/ndc07">Apple GiveBack</a></li>
-              <li><a href="https://github.com/ndc07">Order Status</a></li>
-              <li><a href="https://github.com/ndc07">Shopping Help</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- end column 2 -->
-        <!-- start column 3 -->
-        <div class="directory-column">
-          <div class="directory-column-section">
-            <p class="directory-label">For Education</p>
-            <ul>
-              <li><a href="https://github.com/ndc07">Apple and Education</a></li>
-              <li><a href="https://github.com/ndc07">Shop for College</a></li>
-            </ul>
-          </div>
-          <div class="directory-column-section directory-column-section-2">
-            <p class="directory-label">For Business</p>
-            <ul>
-              <li><a href="https://github.com/ndc07">Apple and Business</a></li>
-              <li><a href="https://github.com/ndc07">Shop for Business</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- end column 3 -->
-        <!-- start column 4 -->
-        <div class="directory-column">
-          <div class="directory-column-section">
-            <p class="directory-label">Account</p>
-            <ul>
-              <li><a href="https://github.com/ndc07">Manage Your Apple ID</a></li>
-              <li><a href="https://github.com/ndc07">Apple Store Account</a></li>
-              <li><a href="https://github.com/ndc07">iCloud.com</a></li>
-            </ul>
-          </div>
-          <div class="directory-column-section directory-column-section-2">
-            <p class="directory-label">Apple Values</p>
-            <ul>
-              <li><a href="https://github.com/ndc07">Accessibility</a></li>
-              <li><a href="https://github.com/ndc07">Education</a></li>
-              <li><a href="https://github.com/ndc07">Environment</a></li>
-              <li><a href="https://github.com/ndc07">Inclusion and Diversity</a></li>
-              <li><a href="https://github.com/ndc07">Privacy</a></li>
-              <li><a href="https://github.com/ndc07">Supplier Responsibility</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- end column 4 -->
-        <!-- start column 5 -->
-        <div class="directory-column">
-          <div class="directory-column-section">
-            <p class="directory-label">About Apple</p>
-            <ul>
-              <li><a href="https://github.com/ndc07">Newsroom</a></li>
-              <li><a href="https://github.com/ndc07">Apple Leadership</a></li>
-              <li><a href="https://github.com/ndc07">Job Opportunities</a></li>
-              <li><a href="https://github.com/ndc07">Investors</a></li>
-              <li><a href="https://github.com/ndc07">Events</a></li>
-              <li><a href="https://github.com/ndc07">Contact Apple</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- end column 5 -->
-      </nav>
-      <!-- end directory-with-5-columns -->
-      <!-- start copyright -->
-      <div class="footer-legal">
-        <div class="footer-legal-left">
-          <p>Copyright © 2018 Apple Inc. All rights reserved.</p>
-        </div>
-        <div class="footer-legal-center">
-          <ul>
-            <li><a href="https://github.com/ndc07">Privacy Policy</a></li>
-            <li><a href="https://github.com/ndc07">Terms of Use</a></li>
-            <li><a href="https://github.com/ndc07">Sales and Refunds</a></li>
-            <li><a href="https://github.com/ndc07">Legal</a></li>
-            <li><a href="https://github.com/ndc07">Site Map</a></li>
-          </ul>
-        </div>
-        <div class="footer-legal-right">
-          <a href="https://github.com/ndc07"><img src="https://images.apple.com/ac/flags/1/images/us/16.png"/>United States</a>
-        </div>
-      </div>
-      <!-- end copyright -->
-    </div>
-  </footer>
-  <!-- end footer -->
-  <script type="text/javascript">
-    var nav = document.getElementById('sticky-nav');
-    window.onscroll = () => {
-      nav.style.opacity = (window.pageYOffset > 0) ? 0.9 : 1;
-    };
-  </script>
+  </div>
 </body>
+<script src="src/main.js"></script>
+
 </html>
